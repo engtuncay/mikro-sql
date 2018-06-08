@@ -1,0 +1,1 @@
+﻿select * from STOKLAR where sto_altgrup_kod='CANBEBE' and sto_sat_cari_kod=''
