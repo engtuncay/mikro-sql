@@ -11,7 +11,7 @@ where sth_evraktip='4' and sth_evrakno_seri='PN' AND sth_evrakno_sira='11644877'
 -- Envanter Maliyet
 --View, Envanter fonksiyonu olarak farklı bir şey kullanılabilir. 
 select sh.sth_stok_kod,st.sto_isim, sh.stokMiktar --,sh.sth_depono
-,dbo.fn_entstokbirimMaliyetEnvanter( sth_stok_kod,'20181231',sh.stokMiktar ) as alisFiyat
+,dbo.fn_entstokbirimMaliyetEnvanter(sth_stok_kod,'20181231',sh.stokMiktar ) as alisFiyat
 FROM 
 (
 select sth_stok_kod,sum(

@@ -12,3 +12,5 @@ SELECT * FROM [ODEME_EMIRLERI] WHERE sck_ilk_evrak_seri=@seri  and sck_ilk_evrak
 
 --SELECT * FROM [CARI_HESAP_HAREKETLERI] WHERE cha_evrakno_seri='NS' and cha_evrakno_sira='14294203'
 --SELECT * FROM [STOK_HAREKETLERI] WHERE sth_evrakno_seri='KN'  and sth_evrakno_sira='18276284'
+
+
